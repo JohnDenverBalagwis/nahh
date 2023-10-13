@@ -19,7 +19,7 @@
     <header>
         <nav class="navbar">
             <div class="logo">
-                <a href="">
+                <a href="#">
                     <img src="/img/msc-logo.png" alt="logo">
                     <div class="logo-text">
                         <h2>Marinduque State College</h2>
