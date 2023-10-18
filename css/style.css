@@ -168,15 +168,26 @@ a:hover:after {
 .hero__container {
   display: flex;
   flex-direction: row;
-}
-
-.column__left {
-  width: 60%;
-  display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
 }
-.column__left .modal {
+/* .hero__container::before {
+  content: "";
+  background-image: url("/img/school.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.63;
+} */
+
+.heading__wrapper {
+  position: relative;
   width: 450px;
   height: 185px;
   text-align: left;
@@ -194,28 +205,23 @@ a:hover:after {
   letter-spacing: 0.42rem;
 }
 .headings h2 {
-  color: #4a4a4a;
+  /* color: #4a4a4a; */
+  color: var(--Neutral-Gray);
   font-family: Lora;
   font-size: 2rem;
   font-style: normal;
   font-weight: 400;
   line-height: 3.375rem;
-  /* 168.75% */
   letter-spacing: 0.21rem;
 }
-.column__right {
-  width: 40%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 .school__logo {
   height: 271px;
   position: relative;
   overflow: hidden;
 }
 
-.column__right img {
+.school__logo img {
   height: 100%;
   width: auto;
   object-fit: fill;
@@ -653,15 +659,6 @@ a:hover:after {
     align-items: center;
     gap: 3.5rem;
   }
-
-  .column__left,
-  .column__right {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
   .headings {
     text-align: center;
   }

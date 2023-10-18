@@ -54,22 +54,18 @@
             </div>
         </nav>
         <section class="hero__container">
-            <div class="column__left">
-                <div class="modal">
-                    <div class="headings">
-                        <h1>eTrack</h1>
-                        <h2>A Comprehensive Web-Based System for MSC Student Org. & Activities</h2>
-                    </div>
-                    <div class="btn__wrapper">
-                        <a class="button-signUp" href="index.php">Sign Up</a>
-                    </div>
+            <div class="heading__wrapper">
+                <div class="headings">
+                    <h1>eTrack</h1>
+                    <h2>A Comprehensive Web-Based System for MSC Student Org. & Activities</h2>
+                </div>
+                <div class="btn__wrapper">
+                    <a class="button-signUp" href="index.php">Sign Up</a>
                 </div>
             </div>
-            <div class="column__right">
-                <figure class="school__logo">
-                    <img src="./img/school.jpg" alt="school">
-                </figure>
-            </div>
+            <figure class="school__logo">
+                <img src="./img/school.jpg" alt="school">
+            </figure>
         </section>
     </header>
     <main>
